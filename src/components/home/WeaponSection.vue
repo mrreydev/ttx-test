@@ -14,9 +14,11 @@
           <p class="text-base w-full xl:2/3 text-white mb-4">
             Lebih dari sekadar senjata dan peluru, kamu akan memilih Agen bersenjatakan kemampuan yang adaptif, tangkas, dan mematikan untuk membuktikan keahlian menembakmu. Sejalan dengan berbedanya kepiawaian dalam menembak, begitu pula di sini; tak akan ada Agen dengan karakteristik sama.
           </p>
-          <Button color="secondary">
-            SEE MORE WEAPON
-          </Button>
+          <RouterLink to="/weapons">
+            <Button color="secondary">
+              SEE MORE WEAPON
+            </Button>
+          </RouterLink>
         </div>
       </div>
     </div>
